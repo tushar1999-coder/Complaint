@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Node JS Express Form Submission</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body style="background-color: #fdf9f5;">
+    <div class="container">
+      <h1>Complaint Form</h1>
+      <form action="/" method="POST">
+        <div class="form-group">
+          <label for="complainantName">Complainant Name</label>
+          <input type="text" class="form-control" id="complainantName" aria-describedby="emailHelp" name="complainantName" placeholder="" required>
+        </div>
+        
+        <label for="OffenseType">Type of Offense:</label>
+
+        <select name="OffenseType" id="OffenseType" required>
+          <option value="Select" autofocus>--Select--</option>
+          <option value="Theft">Theft</option>
+          <option value="Murder">Murder</option>
+          <option value="Kidnapping">Kidnapping</option>
+        </select>
+        <br>
+        <br>
+        
+        <div class="form-group">
+          <label for="OffensePlace">Offense Place</label>
+          <input type="text" class="form-control" id="OffensePlace" aria-describedby="emailHelp" name="OffensePlace" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="OffenseDate">Offense Date</label>
+          <input type="date" class="form-control" id="OffenseDate" aria-describedby="emailHelp" name="OffenseDate" placeholder="" required>
+        </div>
+        <div class="form-group">
+          <label for="OffenseTime">Offense Time</label>
+          <input type="time" class="form-control" id="OffenseTime" aria-describedby="emailHelp" name="OffenseTime" placeholder="" required>
+        </div>
+        
+         <div class="form-group">
+          <label for="Offense">Offense</label>
+          <textarea class="form-control" id="Offense" aria-describedby="emailHelp" name="Offense" placeholder="" rows="6" required>
+          </textarea>
+        </div>
+        
+        <div class="form-group">
+          <label for="suspectDetails">Suspect Details</label>
+          <textarea class="form-control" id="suspectDetails" aria-describedby="emailHelp" name="suspectDetails" placeholder="" rows="6">
+          </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+  </body>
+</html>

@@ -1,0 +1,6 @@
+Isse divyanshu ke solidity project ke saath merge krna,
+File complaint.txt se read krke divyanshu ko BC par write krna.
+
+Frontend normal janta ke liye hai. Logo ki id honi chaiye. Google oauth 2.0 use 
+
+BC par sirf iss code ke through write ho and koi aur na kr paye ye enable krna pdega. (Mam ki requirement)

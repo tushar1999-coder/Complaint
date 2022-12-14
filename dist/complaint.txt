@@ -1,0 +1,1 @@
+{"complainantName":"Jadu","offenceType":"Select","offencePlace":"Hiome","offenceDate":"2022-11-12","offenceTime":"18:20","offence":"          jnjndj","suspectDetails":"          "}
